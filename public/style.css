@@ -1,0 +1,56 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    align-content: center;
+
+}
+
+*, 
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     
+    background-image:url("jurassic.jpg");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    
+
+}
+
+#dinoName {
+    padding: 20px 50px 40px 30px;
+    font-size: 30px;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.generator {
+
+}
+
+#btnload {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 150px;
+    box-shadow: 0 9px #999;
+}
+
+#btnLoad:hover {background-color: #3e8e41}
+#btnLoad:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+   
